@@ -1,9 +1,12 @@
 # Credit default risk
 Credit default risk is the risk that a lender takes the chance that a borrower fails to make required payments of the loan.
 
-In the Jupyter Notebook file, KNN, logistic regression, decision tree, random forest and XGBoost have been exploited to find the best predicitve algorithms. Further, RandomizedSearchCV and GridSearchCV were implemented for hyperparamters-tuning.
+In the Jupyter Notebook file [credit-risk-prediction.ipynb](https://github.com/alilajevardi/Risk-Modelling/blob/main/credit-risk-prediction.ipynb), KNN, logistic regression, decision tree, random forest and XGBoost have been exploited to find the best predicitve algorithms. Further, RandomizedSearchCV and GridSearchCV were implemented for hyperparamters-tuning.
 
 # Exploratory Data Analysis (EDA)
+Dataset tablular:
+![Dataset table](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/01_tabular.png)
+
 Dataset info:
 ``` text
 RangeIndex: 32581 entries, 0 to 32580
@@ -26,3 +29,19 @@ dtypes: float64(3), int64(5), object(4)
 memory usage: 3.0+ MB
 ```
 
+NaN precentage in dataset:
+``` text
+person_age                    0.00
+person_income                 0.00
+person_home_ownership         0.00
+person_emp_length             2.75
+loan_intent                   0.00
+loan_grade                    0.00
+loan_amnt                     0.00
+loan_int_rate                 9.56
+loan_status                   0.00
+loan_percent_income           0.00
+cb_person_default_on_file     0.00
+cb_person_cred_hist_length    0.00
+dtype: float64
+```
