@@ -35,13 +35,13 @@ memory usage: 3.0+ MB
 - person_emp_length is the person employment history, the NaN values can be replaced with mode, which is 0 year.
 - loan_int_rate is the loan income rate, the NaN values can be replaced with 10.99, which is the median.
 
-### Visualising the distributions
+## Visualising the distributions
 The below figure display the distribution of each variables along with its related statistical kernel density estimation (KDE):
 
 ![Visulising distribution](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/02_KDE.png)
 
 
-### Visualising the correlation between variables
+## Visualising the correlation between variables
 
 ![Visulising correlations](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/04_loan_status_corr.png)
 
@@ -50,7 +50,9 @@ The below figure display the distribution of each variables along with its relat
 
 
 
+# The best base-model preformance
 
+![XGB](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/10_XGB.png)
 
 
 
