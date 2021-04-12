@@ -45,7 +45,7 @@ cb_person_default_on_file     0.00
 cb_person_cred_hist_length    0.00
 dtype: float64
 ```
-# Obeservation
+## Obeservation
 
 - Only two columns of data contains NaN
 
