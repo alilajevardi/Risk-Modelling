@@ -54,9 +54,9 @@ The below figure display the distribution of each variables along with its relat
 
 ![XGB](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/10_XGB.png)
 
+![ROC](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/11_ROC.png)
 
-
-
+![Feature](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/12_FeatureImportance.png)
 
 
 
