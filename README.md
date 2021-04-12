@@ -45,6 +45,10 @@ cb_person_default_on_file     0.00
 cb_person_cred_hist_length    0.00
 dtype: float64
 ```
-#Obeservation
+# Obeservation
+
 Only two columns of data contains NaN
+
 person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN
+
+
