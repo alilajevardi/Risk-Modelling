@@ -46,8 +46,14 @@ cb_person_cred_hist_length    0.00
 dtype: float64
 ```
 ## Obeservation
+- Only two columns of data contains NaN.
+- person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN.
+- person_emp_length is the person employment history, the NaN values can be replaced with mode, which is 0 year.
+- loan_int_rate is the loan income rate, the NaN values can be replaced with 10.99, which is the median.
 
-- Only two columns of data contains NaN
-- person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN
+### Visualising the distributions
+The below figure display the distribution of each variables along with its related statistical kernel density estimation (KDE):
+![Visulising distribution](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/02_KDE.png)
+
 
 
