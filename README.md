@@ -57,7 +57,14 @@ The below figure display the distribution of each variables along with its relat
 ![ROC](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/11_ROC.png)
 
 ![Feature](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/12_FeatureImportance.png)
+Observation
 
+## The top 5 important features includes:
+- person_home_ownership_RENT
+- person_home_ownership_OWN
+- loan_grade_C
+- loan_percent_income
+- person_home_ownership_MORTGAGE
 
 
 
