@@ -47,8 +47,8 @@ dtype: float64
 ```
 # Obeservation
 
-Only two columns of data contains NaN
+- Only two columns of data contains NaN
 
-person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN
+- person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN
 
 
