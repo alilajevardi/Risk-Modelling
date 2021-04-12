@@ -29,22 +29,6 @@ dtypes: float64(3), int64(5), object(4)
 memory usage: 3.0+ MB
 ```
 
-NaN precentage in dataset:
-``` text
-person_age                    0.00
-person_income                 0.00
-person_home_ownership         0.00
-person_emp_length             2.75
-loan_intent                   0.00
-loan_grade                    0.00
-loan_amnt                     0.00
-loan_int_rate                 9.56
-loan_status                   0.00
-loan_percent_income           0.00
-cb_person_default_on_file     0.00
-cb_person_cred_hist_length    0.00
-dtype: float64
-```
 ## Obeservation
 - Only two columns of data contains NaN.
 - person_emp_length contains 2.75% NaN and loan_int_rate contains 9.56% NaN.
@@ -53,7 +37,25 @@ dtype: float64
 
 ### Visualising the distributions
 The below figure display the distribution of each variables along with its related statistical kernel density estimation (KDE):
+
 ![Visulising distribution](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/02_KDE.png)
+
+
+### Visualising the correlation between variables
+
+![Visulising correlations](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/04_loan_status_corr.png)
+
+- person_income, person_emp_length, and person_age: has negative effect on loan_status being default, which means the larger these variebles, the less likely the person is risky.
+- loan_percent_income, loan_int_rate, and loan_amnt: has postive effect on loan_status being default, which means the larger these variebles, the more likely the person is risky.
+
+
+
+
+
+
+
+
+
 
 
 
