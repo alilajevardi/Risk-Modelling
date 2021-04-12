@@ -66,5 +66,10 @@ Observation
 - loan_percent_income
 - person_home_ownership_MORTGAGE
 
+![Probability](https://github.com/alilajevardi/Risk-Modelling/blob/main/artifacts/13_ProbabThreshold.png)
 
-
+# Conclusion
+- The XGBClassifier has the best performance with AUROC score compared to other classifiers.
+- Using RandomizedSearchCV for hyperparamters-tuning improves AUROC score.
+- GridSearchCV can improve AUROC score further with fine-tuning around optimised hyperparameters.
+- The optimal probability threshold for the best model is 0.55 resulting accuracy 0.939.
